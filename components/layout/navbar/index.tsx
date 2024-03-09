@@ -28,23 +28,23 @@ export default async function Navbar() {
          
             <ul className="hidden gap-6 text-sm md:flex md:items-center">
               
-                <li className=' flex flex-row gap-10'>
+                <li className='flex flex-row gap-5'>
                   <Link
                    href='/search'
                     className="text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300"
                   >
-                   All
+                  All
                   </Link>
                   <Link
                    href='/search/t-shirt'
                     className="text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300"
                   >
-                   T-Shirt
+                  Shirt
                   </Link><Link
                    href='/search/snowborad'
                     className="text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300"
                   >
-                   Snowboard
+                  Snowboard
                   </Link>
                 </li>
             

@@ -84,11 +84,20 @@ export default function MobileMenu({ menu }: { menu: Menu[] }) {
                         <Link href={item.path} onClick={closeMobileMenu}>
                           {item.title}
                         </Link>
+                        <Link href="/search">All</Link>
                       </li>
                     ))}
                   </ul>
                 ) : null}
+                <ul className="flex w-full flex-col gap-5">
+
+                <Link href="/search">All</Link>
+                <Link href="/search/t-shirt">Shirt</Link>
+                <Link href="/search/snowborad">Snowboard</Link>
+                </ul>
+
               </div>
+
             </Dialog.Panel>
           </Transition.Child>
         </Dialog>

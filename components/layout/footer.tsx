@@ -36,6 +36,15 @@ export default async function Footer() {
           }
         >
           <FooterMenu menu={menu} />
+          <div className='flex h-[150px] w-[200px] flex-col gap-2 '>
+          <Link href='/' className='text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300'>Home</Link>
+          <Link href='/about' className='text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300'>About</Link>   
+          <Link href='/terms-conditions' className='text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300'>Terms & Conditions</Link>  
+          <Link href='/shipping-return-policy' className='text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300'>Shipping & Return Policy</Link>  
+          <Link href='/privacy-policy' className='text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300'>Privacy Policy</Link>  
+          <Link href='/frequently-asked-questions' className='text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300'>FAQ</Link>  
+
+          </div>
         </Suspense>
         <div className="md:ml-auto">
           <a
